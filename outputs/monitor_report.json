@@ -1,0 +1,14 @@
+{
+  "baseline_path": "extreme_precip_model_data.csv",
+  "new_path": "new_scoring_data.csv",
+  "psi_threshold": 0.2,
+  "missing_features": [],
+  "psi": {
+    "prcp_lag_1": 0.0002957403437692724,
+    "prcp_roll_7": 0.005118136472116751,
+    "TMAX": 0.008053244747818763,
+    "TMIN": 0.005459114808180846
+  },
+  "retrain_needed": false,
+  "notes": "PSI computed on numeric features. Use a truly new batch for meaningful drift detection."
+}

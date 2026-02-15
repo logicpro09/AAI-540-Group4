@@ -1,0 +1,69 @@
+{
+  "split_date": "2022-02-03 00:00:00",
+  "n_test": 7286,
+  "best_threshold_search": {
+    "threshold": 0.65,
+    "f1": 0.16914138153647515,
+    "precision": 0.10835401157981803,
+    "recall": 0.38529411764705884
+  },
+  "metrics": {
+    "threshold": 0.65,
+    "f1": 0.16914138153647515,
+    "precision": 0.10835401157981803,
+    "recall": 0.38529411764705884,
+    "roc_auc": 0.7195137700919699,
+    "pr_auc": 0.1016917810536049
+  },
+  "confusion_matrix": [
+    [
+      5868,
+      1078
+    ],
+    [
+      209,
+      131
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9656080302780977,
+      "recall": 0.8448027641808235,
+      "f1-score": 0.9011748445058743,
+      "support": 6946.0
+    },
+    "1": {
+      "precision": 0.10835401157981803,
+      "recall": 0.38529411764705884,
+      "f1-score": 0.16914138153647515,
+      "support": 340.0
+    },
+    "accuracy": 0.8233598682404611,
+    "macro avg": {
+      "precision": 0.5369810209289578,
+      "recall": 0.6150484409139412,
+      "f1-score": 0.5351581130211747,
+      "support": 7286.0
+    },
+    "weighted avg": {
+      "precision": 0.9256044115082082,
+      "recall": 0.8233598682404611,
+      "f1-score": 0.8670146225171842,
+      "support": 7286.0
+    }
+  },
+  "feature_columns": {
+    "numeric": [
+      "prcp_lag_1",
+      "prcp_roll_7",
+      "TMAX",
+      "TMIN"
+    ],
+    "categorical": [
+      "station_id"
+    ]
+  },
+  "target_column": "extreme_precip_tomorrow",
+  "model_path": "model/model.joblib",
+  "data_path": "extreme_precip_model_data.csv"
+}

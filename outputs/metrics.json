@@ -1,0 +1,22 @@
+{
+  "split_date": "2022-02-03 00:00:00",
+  "n_train": 29165,
+  "n_test": 7286,
+  "features_num": [
+    "prcp_lag_1",
+    "prcp_roll_7",
+    "TMAX",
+    "TMIN"
+  ],
+  "features_cat": [
+    "station_id"
+  ],
+  "target": "extreme_precip_tomorrow",
+  "metrics": {
+    "f1": 0.1589310829817159,
+    "precision": 0.0902555910543131,
+    "recall": 0.6647058823529411,
+    "roc_auc": 0.7195137700919699,
+    "threshold": 0.5
+  }
+}
