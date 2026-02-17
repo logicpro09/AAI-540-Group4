@@ -1,15 +1,31 @@
-# AAI-540-Group4
-Final Project Repo for USD MSAAI 540
+# AAI-540-Group4  
+Final Project Repo for USD MSAAI 540  
+
+## AAI-540 Group 4 — Extreme Precipitation Modeling + MLOps (SageMaker)
+
+**Group Members:**  
+Ahmed Salem  
+Victor Salcedo  
 
 ---
-# AAI-540 Group 4 — Extreme Precipitation Modeling + MLOps (SageMaker)
+## Project Description
 
-This repo contains a complete end-to-end workflow for:
-- Feature engineering for extreme precipitation prediction (time-series)
-- Model training (baseline)
-- Model evaluation with threshold tuning + validation gates
-- Batch inference (offline scoring)
-- Monitoring (feature drift using PSI) + retraining trigger logic
+This project builds an end-to-end machine learning system to predict extreme rain events using historical weather data.  
+
+We engineer time-series features from NOAA precipitation records to model the probability of extreme precipitation days. The workflow includes model training, threshold tuning, validation gates, batch inference, drift monitoring (PSI), and retraining trigger logic — forming a complete ML + MLOps pipeline implemented in SageMaker.
+
+---
+## Project Overview
+
+This repository contains a complete end-to-end workflow for:
+
+- Feature engineering for extreme precipitation prediction (time-series)  
+- Model training (baseline)  
+- Model evaluation with threshold tuning and validation gates  
+- Batch inference (offline scoring)  
+- Monitoring (feature drift using PSI) and retraining trigger logic  
+
+---
 
 ## Repository Structure
 
