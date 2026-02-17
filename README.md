@@ -41,15 +41,32 @@ AAI-540-Group4/
 │   ├── 7b_Random_Forest_Model_Training.ipynb
 │   ├── 8a_Model_Monitoring_Normal.ipynb
 │   ├── 8b_Model_Monitoring_Alarm.ipynb
-│   └── 9_CI_CD_Pipelines.ipynb
+│   ├── 9_CI_CD_Pipelines.ipynb
+│   └── README.md
 │
-├── extreme_precip_model_data.csv
-├── train.py
-├── evaluate.py
-├── inference.py
-├── monitor.py
+├── data/
+│   ├── extreme_precip_model_data.csv
+│   └── new_scoring_data.csv
+│
 ├── model/
+│   ├── model.joblib
+│   └── model (1).tar.gz
+│
+├── model_code/
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── inference.py
+│   ├── monitor.py
+│   ├── test.py
+│   └── untitled.txt
+│
 ├── outputs/
+│   ├── metrics.json
+│   ├── evaluation_metrics.json
+│   ├── predictions.csv
+│   └── monitor_report.json
+│
+├── .gitignore
 └── README.md
 ```
 
