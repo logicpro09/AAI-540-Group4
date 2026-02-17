@@ -13,7 +13,30 @@ This repo contains a complete end-to-end workflow for:
 
 ## Repo Structure
 
-- `AAI540_Group4.ipynb` — Data ingestion + feature engineering notebook
+AAI-540-Group4/
+│
+├── notebooks/
+│   ├── 1_EDA.ipynb
+│   ├── 2_Load_Processed_Data.ipynb
+│   ├── 3_Create_Athena_DB.ipynb
+│   ├── 4_Register_CSV_Athena.ipynb
+│   ├── 5_ConvertS3csv_toParquet.ipynb
+│   ├── 6_Create_Feature_Store.ipynb
+│   ├── 7a_Log_Regression_Model_Training.ipynb
+│   ├── 7b_Random_Forest_Model_Training.ipynb
+│   ├── 8a_Model_Monitoring_Normal.ipynb
+│   ├── 8b_Model_Monitoring_Alarm.ipynb
+│   └── 9_CI_CD_Pipelines.ipynb
+│
+├── extreme_precip_model_data.csv
+├── train.py
+├── evaluate.py
+├── inference.py
+├── monitor.py
+├── model/
+├── outputs/
+└── README.md
+
 - `extreme_precip_model_data.csv` — Engineered dataset (features + target)
 - `train.py` — Train model using time-based split and save artifacts
 - `evaluate.py` — Evaluate model, auto-search best threshold (by F1), write metrics JSON, apply validation gate
