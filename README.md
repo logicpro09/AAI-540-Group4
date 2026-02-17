@@ -87,6 +87,19 @@ In SageMaker Studio (or any Python 3 environment):
 
 python3 -m pip install -U pandas numpy scikit-learn joblib
 
+## Full Pipeline (Notebook)
+
+The full end-to-end MLOps deliverables are implemented and documented within the `notebooks/` directory. These notebooks walk through data preparation, feature engineering, model training, monitoring, and CI/CD pipeline construction in SageMaker.
+
+Core components include:
+
+- Feature engineering for extreme precipitation prediction (time-series)  
+- Model training (baseline)  
+- Model evaluation with threshold tuning and validation gates  
+- Batch inference (offline scoring)  
+- Monitoring (feature drift using PSI) and retraining trigger logic  
+- CI/CD pipeline implementation
+  
 ## Run Full Pipeline (One Command)
 
 You can run the entire ML + MLOps workflow in a single command:
@@ -96,6 +109,8 @@ You can run the entire ML + MLOps workflow in a single command:
 - Run batch inference
 - Create new scoring batch
 - Run drift monitoring
+
+
 
 From the project root:
 
