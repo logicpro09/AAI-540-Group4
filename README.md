@@ -11,8 +11,9 @@ This repo contains a complete end-to-end workflow for:
 - Batch inference (offline scoring)
 - Monitoring (feature drift using PSI) + retraining trigger logic
 
-## Repo Structure
+## Repository Structure
 
+```text
 AAI-540-Group4/
 │
 ├── notebooks/
@@ -36,6 +37,8 @@ AAI-540-Group4/
 ├── model/
 ├── outputs/
 └── README.md
+```
+
 
 - `extreme_precip_model_data.csv` — Engineered dataset (features + target)
 - `train.py` — Train model using time-based split and save artifacts
