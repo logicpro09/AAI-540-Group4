@@ -1,7 +1,5 @@
-# AAI-540-Group4  
-Final Project Repo for USD MSAAI 540  
-
 ## AAI-540 Group 4 — Extreme Precipitation Modeling + MLOps (SageMaker)
+Final Project Repo for USD MSAAI 540  
 
 **Group Members:**  
 Ahmed Salem  
